@@ -1,0 +1,53 @@
+nav img{
+    height:10vh;
+    width:20vh;
+}
+nav{
+    display:flex;
+    background-color:lightblue;
+    justify-content: space-between;
+}
+.links{    
+    display:flex;
+    width:45vh;
+    margin-right:10vh;
+    justify-content:space-evenly;
+    align-items:center;
+}
+nav ul{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+nav ul li{
+    list-style: none;    
+}
+.banner{
+    width:100%;
+    height:70vh;    
+}
+.container{
+    display:flex;    
+    justify-content:space-evenly;
+}
+.card{
+    flex:1;
+    border:2px solid blue;
+}
+.card h2{
+    text-align:center;
+}
+.container img{
+    height:50vh;
+    width:60vh;
+}
+.last{
+    display:flex;
+    justify-content:space-evenly;
+}
+.last span{
+    font-size:15px;
+}
+.last li{
+    list-style:none;
+}
